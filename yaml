@@ -1,0 +1,41 @@
+
+---
+
+# **Project 2: Full Stack Cloud-Native Application**
+
+```markdown
+# Full Stack Cloud-Native Application
+
+## Overview
+A containerized full-stack web application deployed on Kubernetes clusters (AWS EKS / GCP GKE) with CI/CD pipelines and cloud-native storage. Demonstrates end-to-end DevOps and cloud integration.
+
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js / Express
+- Database: PostgreSQL / Cloud SQL
+- Containerization: Docker, Helm
+- Kubernetes (EKS/GKE)
+- Terraform (IaC)
+- CI/CD: GitHub Actions
+- Storage: AWS S3 / GCP Cloud Storage
+
+## Features
+- Multi-service containerized architecture
+- Automated CI/CD pipelines
+- Cloud-native storage for static assets
+- Rolling updates and zero downtime deployment
+- Infrastructure as Code using Terraform
+
+## Architecture Diagram
+![Architecture Diagram](./docs/architecture.png)
+
+## Setup Instructions
+1. Clone the repo
+2. Setup frontend and backend:
+   ```bash
+   cd frontend
+   npm install
+   npm run build
+   cd ../backend
+   npm install
+   npm start
