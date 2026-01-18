@@ -1,0 +1,33 @@
+
+---
+
+# **Project 4: Cloud Cost & Security Dashboard**
+
+```markdown
+# Cloud Cost & Security Dashboard
+
+## Overview
+Dashboard to track cloud costs, unused resources, and security compliance across AWS & GCP. Demonstrates strategic thinking, governance, and multi-cloud operational excellence.
+
+## Tech Stack
+- Backend: Node.js / Python (data collection)
+- Frontend: React.js
+- Terraform (IaC for dashboard infra)
+- Cloud APIs: AWS & GCP
+- Visualization: Grafana / React Dashboard
+
+## Features
+- Tracks cloud spend and resource utilization
+- Identifies security issues (IAM, encryption, public resources)
+- Visualizes multi-cloud resources & compliance metrics
+- Infrastructure provisioning via Terraform
+
+## Architecture Diagram
+![Architecture Diagram](./docs/architecture.png)
+
+## Setup Instructions
+1. Clone the repository
+2. Install backend dependencies
+   ```bash
+   cd backend
+   npm install
