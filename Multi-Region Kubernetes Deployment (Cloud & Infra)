@@ -1,0 +1,33 @@
+# Multi-Region Kubernetes Deployment on AWS & GCP
+
+## Overview
+This project demonstrates the deployment of a highly available, multi-region Kubernetes cluster on AWS EKS and GCP GKE using Terraform and CI/CD pipelines. It showcases cloud architecture, automation, and observability at scale.
+
+## Tech Stack
+- AWS: EKS, VPC, RDS, S3
+- GCP: GKE, Cloud SQL, Cloud Storage
+- Kubernetes, Helm
+- Terraform (IaC)
+- CI/CD: GitHub Actions / Jenkins
+- Monitoring: Prometheus, Grafana, ELK Stack
+- Automation: Python / Bash
+
+## Features
+- Multi-region Kubernetes clusters supporting 250+ microservices
+- Autoscaling and rolling deployments
+- Centralized monitoring and logging
+- Automated CI/CD pipelines
+- Cost optimization via Terraform best practices
+
+## Architecture Diagram
+![Architecture Diagram](./docs/architecture.png)
+
+## Setup Instructions
+1. Clone the repository
+2. Install Terraform, kubectl, and Helm
+3. Update provider credentials for AWS/GCP
+4. Apply Terraform scripts:
+   ```bash
+   cd infra
+   terraform init
+   terraform apply
