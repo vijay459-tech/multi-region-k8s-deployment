@@ -1,0 +1,34 @@
+
+---
+
+# **Project 3: Automated Monitoring & Self-Healing System**
+
+```markdown
+# Automated Monitoring & Self-Healing System
+
+## Overview
+Implements monitoring, alerting, and self-healing for cloud applications using Prometheus, Grafana, Terraform, and automation scripts. Demonstrates operational excellence and SRE-level automation.
+
+## Tech Stack
+- Monitoring: Prometheus, Grafana
+- Cloud: AWS CloudWatch / GCP Monitoring
+- Automation: Python / Bash
+- Terraform (IaC)
+- Alerts: Slack / Email notifications
+
+## Features
+- Real-time monitoring dashboards
+- Alerts for application downtime
+- Automated self-healing scripts
+- Infrastructure provisioning via Terraform
+
+## Architecture Diagram
+![Architecture Diagram](./docs/architecture.png)
+
+## Setup Instructions
+1. Clone the repo
+2. Setup monitoring stack using Terraform:
+   ```bash
+   cd infra
+   terraform init
+   terraform apply
